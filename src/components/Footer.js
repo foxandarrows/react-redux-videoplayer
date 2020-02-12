@@ -9,7 +9,7 @@ import styled from "styled-components";
 const Wrap = styled.div`
   height: calc(30vh - 25px);
   width: 100vh;
-  background-color: white;
+  background-color: black;
   overflow-y: scroll;
   padding-bottom: 20px;
 `;

@@ -11,13 +11,15 @@ const Button = styled.button`
 `;
 
 const ThumbsUp = styled.span`
-  color: grey;
+  color: white;
   font-size: 18px;
+  padding: 5px 0 5px 0;
 `;
 
 const CounterValue = styled.span`
   margin: 5px 10px 0 0;
   width: 15px;
+  color: white;
 `;
 
 const Counter = () => {

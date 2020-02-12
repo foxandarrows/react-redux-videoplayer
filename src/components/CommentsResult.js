@@ -4,13 +4,13 @@ import styled from "styled-components";
 const Wrap = styled.div`
   width: 100vh;
   heigh: 100px;
-  background-color: white;
 `;
 
 const Comment = styled.div`
-  border-bottom: 1px solid white;
-  background-color: #f0f0f0;
+  background-color: black;
+  color: white;
   padding: 10px 0 10px 10px;
+  border-bottom: 2px solid white;
 `;
 
 const CommentsResult = ({ comments }) => {

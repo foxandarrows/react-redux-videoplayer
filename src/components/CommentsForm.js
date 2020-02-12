@@ -8,23 +8,23 @@ const Form = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  padding: 5px 5px 0 0;
+  padding: 5px 0 0 0;
 `;
 
-const Input = styled.input`
-  width: calc(100% - 30px);
+const Textearea = styled.textarea`
+  width: calc(100% - 22px);
   height: 20px;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 5px;
 `;
 
 const Submit = styled.input`
   padding: 0.5em;
-  margin: 1em 0 1em 0;
+  margin: 1em 0 0 0;
   font-size: 1em;
-  border: 1px solid black;
-  background-color: #333333;
+  border: 1px solid white;
+  background-color: transparent;
   color: white;
 `;
 
@@ -38,7 +38,7 @@ const CommentsForm = () => {
         dispatch({ type: CREATE_COMMENT, comment: text });
       }}
     >
-      <Input type="text" value={text} onChange={e => setText(e.target.value)} />
+      <Textearea onChange={e => setText(e.target.value)} />
       <Submit type="submit" value="Commenter" />
     </Form>
   );
