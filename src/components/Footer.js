@@ -11,7 +11,7 @@ const Wrap = styled.div`
   width: 100vh;
   background-color: white;
   overflow-y: scroll;
-  margin-bottom: 25px;
+  padding-bottom: 20px;
 `;
 
 const Footer = () => {

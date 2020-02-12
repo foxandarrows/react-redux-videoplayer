@@ -10,7 +10,7 @@ const VideoCommentContainer = ({ url }) => {
       controls={true}
       light={true}
       width="100vh"
-      height="60vh"
+      height="55vh"
     />
   );
 };

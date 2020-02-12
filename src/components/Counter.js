@@ -4,8 +4,6 @@ import { INCREMENT } from "../redux/actions/actionTypes";
 import styled from "styled-components";
 import { RowAlignRight } from "../css/mainStyles";
 
-// padding: 10px;
-
 const Button = styled.button`
   background-color: transparent;
   border: none;

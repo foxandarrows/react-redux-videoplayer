@@ -9,14 +9,14 @@ export const Column = styled.div`
 
 export const Row = styled.div`
   display: flex;
-  flex-direction: Row;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 `;
 
 export const RowAlignRight = styled.div`
   display: flex;
-  flex-direction: Row;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 `;

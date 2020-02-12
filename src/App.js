@@ -6,8 +6,9 @@ import { Column } from "./css/mainStyles";
 import styled from "styled-components";
 
 const Background = styled.div`
-  background-color: black;
   margin: 0;
+  height: 100vh;
+  background-color: black;
 `;
 
 const App = () => {
