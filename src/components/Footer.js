@@ -10,11 +10,10 @@ const Wrap = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  flex: 1;
   align-items: center;
   justify-content: center;
-  background-color: black;
 
+  background-color: black;
   margin-bottom: 75px;
   overflow-y: scroll;
 `;

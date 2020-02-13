@@ -7,7 +7,6 @@ const Wrap = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  flex: 1;
   align-items: center;
   justify-content: flex-end;
 `;
