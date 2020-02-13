@@ -7,9 +7,13 @@ import Counter from "../components/Counter";
 import styled from "styled-components";
 
 const Wrap = styled.div`
-  height: calc(30vh - 25px);
-  width: 100vh;
-  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+
   padding-bottom: 20px;
   overflow-y: scroll;
 `;

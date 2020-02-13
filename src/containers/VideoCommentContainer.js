@@ -1,17 +1,17 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import PropTypes from "prop-types";
+import styled from "styled-components";
+
+const Wrap = styled.div`
+  padding-bottom: 20px;
+`;
 
 const VideoCommentContainer = ({ url }) => {
   return (
-    <ReactPlayer
-      url={url}
-      playing
-      controls={true}
-      light={true}
-      width="100vh"
-      height="55vh"
-    />
+    <Wrap>
+      <ReactPlayer url={url} playing controls={true} light={true} />
+    </Wrap>
   );
 };
 
