@@ -25,6 +25,7 @@ const CounterValue = styled.span`
 const Counter = () => {
   const dispatch = useDispatch();
   const counter = useSelector(state => state.counter.counter);
+
   return (
     <RowAlignRight>
       <Button onClick={() => dispatch({ type: INCREMENT })}>

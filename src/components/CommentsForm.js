@@ -26,6 +26,7 @@ const Submit = styled.input`
   border: 1px solid white;
   background-color: transparent;
   color: white;
+  overflow-y: hidden;
 `;
 
 const CommentsForm = () => {
@@ -36,6 +37,7 @@ const CommentsForm = () => {
       onSubmit={e => {
         e.preventDefault();
         dispatch({ type: CREATE_COMMENT, comment: text });
+        e.target.reset();
       }}
     >
       <Textearea onChange={e => setText(e.target.value)} />
