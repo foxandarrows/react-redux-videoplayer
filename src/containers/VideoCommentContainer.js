@@ -4,6 +4,8 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const Wrap = styled.div`
+  min-height: 50vh;
+  background-color: black;
   padding-bottom: 20px;
 `;
 
