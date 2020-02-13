@@ -9,6 +9,7 @@ const Form = styled.form`
   justify-content: flex-end;
   min-width: 100%;
   padding: 5px 0 0 0;
+  background-color: black;
 `;
 
 const Textearea = styled.textarea`

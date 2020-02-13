@@ -4,6 +4,7 @@ import styled from "styled-components";
 const Wrap = styled.div`
   height: 100px;
   min-width: 100%;
+  background-color: black;
 `;
 
 const Comment = styled.div`
