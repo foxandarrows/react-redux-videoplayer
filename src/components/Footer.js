@@ -14,7 +14,7 @@ const Wrap = styled.div`
   align-items: center;
   justify-content: center;
 
-  padding-bottom: 20px;
+  margin-bottom: 75px;
   overflow-y: scroll;
 `;
 
